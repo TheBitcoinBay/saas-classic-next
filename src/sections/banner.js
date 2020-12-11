@@ -19,9 +19,9 @@ const Banner = () => {
               victory of the managements that supplies best design system
               guidelines ever.
             </Text>
-            <Button variant="primary" sx={styles.button}>
+            {/*<Button variant="primary" sx={styles.button}>
               Explore Now
-            </Button>
+            </Button>*/}
             <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />

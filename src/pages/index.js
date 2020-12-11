@@ -7,23 +7,25 @@ import Banner from 'sections/banner';
 import UltimateFeatures from 'sections/ultimate-features';
 import Features from 'sections/features';
 import IntroVideo from 'sections/intro-video';
+import WorkFlow from 'sections/workflow';
 import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
-import Pricing from 'sections/pricing';
+//import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Startup Landing 010" />
+        <SEO title="Bitcoin Bay" />
         <Banner />
         <UltimateFeatures />
         <Features />
         <IntroVideo />
+        <WorkFlow />
         <UsefulFeatures />
         <Widgets />
-        <Pricing />
+        {/*<Pricing />*/}
         <Faq />
       </Layout>
     </ThemeProvider>

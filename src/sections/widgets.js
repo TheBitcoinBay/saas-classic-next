@@ -29,9 +29,9 @@ const Widgets = () => {
               <Image src={checkFilledCircle} alt="check icon" />
               Completely responsive features
             </Text>
-            <Box sx={styles.explore}>
+            {/*<Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />
-            </Box>
+            </Box>*/}
           </Box>
         </Box>
       </Container>

@@ -20,6 +20,7 @@
     "react-ga": "^3.1.2",
     "react-icons": "^3.11.0",
     "react-modal": "^3.11.2",
+    "react-multi-carousel": "^2.5.5",
     "react-scroll": "^1.8.1",
     "react-stickynode": "^3.0.3",
     "responsive-embed": "^1.0.0",
@@ -30,7 +31,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.2.4"
+    "next-sitemap": "^1.2.4",
+    "prettier": "^2.1.2"
   }
 }

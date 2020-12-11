@@ -5,7 +5,7 @@ import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
 import { LearnMore } from 'components/link';
 import videoBanner from 'assets/images/video.png';
-import Play from 'assets/images/icons/play.png';
+import Play from 'assets/images/icons/play_dark.png';
 import Modal, { CloseButton } from 'components/modal/modal';
 import ResponsiveIframe from 'components/responsive-iframe';
 
@@ -20,9 +20,9 @@ const IntroVideo = () => {
           title="Leading companies trust us to develop most powerful software with our talent team"
           description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
         />
-        <Box sx={styles.explore}>
+        {/*<Box sx={styles.explore}>
           <LearnMore path="#!" label="Explore More" />
-        </Box>
+        </Box>*/}
         <Box sx={styles.videoWrapper}>
           <Modal isOpen={isOpen}>
             <CloseButton
@@ -31,9 +31,7 @@ const IntroVideo = () => {
               color="#fff"
             />
             <ResponsiveIframe
-              src="https://player.vimeo.com/video/394343710?autoplay=1&color=28DDB2&title=0&byline=0&portrait=0"
-              allow="autoplay; fullscreen"
-              allowFullScreen
+              width="560" height="315" src="https://www.youtube.com/embed/mwky9iYTVlg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
             />
           </Modal>
 
@@ -77,7 +75,7 @@ const styles = {
     },
   },
   playPause: {
-    color: 'white',
+    color: 'black',
     fontWeight: 700,
     position: 'absolute',
     padding: '0px',

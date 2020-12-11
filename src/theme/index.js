@@ -108,6 +108,10 @@ export default {
       pt: [7, 7, 7, 7, 8],
       pb: [7, 7, 7, 7, 8],
     },
+    testimonial: {
+      py: [8, null, 9, null, null, 10],
+      overflow: 'hidden',
+    },
     usefulFeatures: {
       backgroundColor: 'backgroundSecondary',
       pt: [7, 7, 7, 7, 8],
@@ -125,6 +129,33 @@ export default {
     faq: {
       pt: [6, 6, 6, 8],
       pb: [7, 7, 7, 7, 150],
+    },
+  },
+  sectionHeader: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    mt: -1,
+    marginBottom: ['50px', null, '60px', null, '65px', '75px'],
+    title: {
+      fontSize: ['24px', null, '28px', null, null, '32px', null, '36px'],
+      color: 'heading_secondary',
+      lineHeight: [1.3, null, null, 1.2],
+      textAlign: 'center',
+      fontWeight: '700',
+      letterSpacing: '-.5px',
+    },
+
+    subTitle: {
+      fontSize: [0, null, '14px'],
+      color: 'heading',
+      textAlign: 'center',
+      letterSpacing: ['1.5px', null, '2px'],
+      textTransform: 'uppercase',
+      fontWeight: '700',
+      mb: '8px',
+      lineHeight: 1.5,
     },
   },
   text: {

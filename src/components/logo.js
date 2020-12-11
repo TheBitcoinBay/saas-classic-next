@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/images/logo.png';
-import logoWhite from 'assets/images/logo-white.png';
+import logo from 'assets/images/bitcoinbay_logo.png';
+import logoWhite from 'assets/images/bitcoinbay_logo_white.png';
 
 export default function Logo({ isWhite }) {
   return (
