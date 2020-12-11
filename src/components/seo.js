@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = 'Bitcoin Bay landing page',
+  author = 'Bitcoin Bay',
   meta,
-  title = 'startup landing title',
+  title = 'Bitcoin Bay Corp',
 }) {
   const metaData = [
     {

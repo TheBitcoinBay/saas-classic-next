@@ -9,29 +9,29 @@ import { rgba } from 'polished';
 export default function Footer() {
   return (
     <Box as="footer" variant="layout.footer">
-      <Container>
+      {/*<Container>
         <Box sx={styles.footerTopInner}>
           {menuItems.map(({ id, title, items }) => (
             <FooterWidget key={id} title={title} items={items} />
           ))}
         </Box>
-      </Container>
+      </Container>*/}
       <Container>
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
             <Logo />
             <Text as="span">
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              {new Date().getFullYear()} Bitcoin Bay Corp.
             </Text>
           </Box>
 
-          <Box as="ul" sx={styles.footerNav}>
+          {/*<Box as="ul" sx={styles.footerNav}>
             {footerNav.map(({ path, label }, i) => (
               <li key={i}>
                 <Link path={path} key={i} label={label} variant="footer" />
               </li>
             ))}
-          </Box>
+          </Box>*/}
         </Box>
       </Container>
     </Box>

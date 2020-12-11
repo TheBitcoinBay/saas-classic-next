@@ -10,13 +10,14 @@ import IntroVideo from 'sections/intro-video';
 import WorkFlow from 'sections/workflow';
 import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
+//import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Startup Landing 010" />
+        <SEO title="Bitcoin Bay" />
         <Banner />
         <UltimateFeatures />
         <Features />
@@ -24,6 +25,7 @@ export default function IndexPage() {
         <WorkFlow />
         <UsefulFeatures />
         <Widgets />
+        {/*<Pricing />*/}
         <Faq />
       </Layout>
     </ThemeProvider>
