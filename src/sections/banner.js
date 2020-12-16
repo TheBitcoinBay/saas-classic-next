@@ -12,12 +12,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Professional Communication For Your Team
+              Helping Businesses in the Blockchain Ecosystem
             </Heading>
             <Text as="p" sx={styles.text}>
-              Get your blood tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Created in 2014, Bitcoin Bay is one of the oldest blockchain communities in Toronto. We guide people through the cryptocurrency markets, and provide B2B blockchain expertise for organizations seeking to utilize the technology.
             </Text>
             {/*<Button variant="primary" sx={styles.button}>
               Explore Now
@@ -53,7 +51,7 @@ const styles = {
   },
   title: {
     fontWeight: 'bold',
-    fontSize: ['30px', null, null, null, '42px', '40px', '60px'],
+    fontSize: ['30px', null, null, null, '42px', '40px', '50px'],
     lineHeight: 1.33,
     letterSpacing: '-1px',
     color: 'textSecondary',

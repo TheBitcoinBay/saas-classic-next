@@ -12,13 +12,13 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: 'See where you’re making and spending money in real.',
+    title: 'Community Meetups',
+    description: 'Building a grassroots blockchain ecosystem.',
   },
   {
     id: 2,
     icon: dart,
-    title: 'Best Strategy',
+    title: 'Adoption Strategy',
     description: 'Send money with three clicks by wire, check, or ACH.',
   },
   {
