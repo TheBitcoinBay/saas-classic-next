@@ -19,19 +19,19 @@ const data = [
     id: 2,
     icon: dart,
     title: 'Adoption Strategy',
-    description: 'Send money with three clicks by wire, check, or ACH.',
+    description: 'Aid blockchain adoption for investors and businesses.',
   },
   {
     id: 3,
     icon: rocket,
-    title: 'Boost Performance',
-    description: 'Choose the right tone and fast formality level.',
+    title: 'Solutions Development',
+    description: 'Decentralized applications, security and architecture.',
   },
   {
     id: 4,
     icon: trophy,
-    title: 'Award history',
-    description: `Keep secure with fluent 2-factor authentication full activity.`,
+    title: 'Investor Relations',
+    description: 'Connecting blockchain startups with investors.',
   },
 ];
 
@@ -41,8 +41,8 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Go Beyond unlimited features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Bitcoin Bay - What We Do"
+          description="Bitcoin Bay hosts a wide range of services and offerings aimed to grow the blockchain ecosystem."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (

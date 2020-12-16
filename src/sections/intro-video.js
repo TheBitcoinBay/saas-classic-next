@@ -45,7 +45,7 @@ const IntroVideo = () => {
             sx={styles.playPause}
             onClick={() => setIsOpen(true)}
           >
-            <Image src={Play} alt="play" /> Watch Full video
+            <Image src={Play} alt="play" /> Click Here To Watch Full video
           </Button>
         </Box>
       </Container>

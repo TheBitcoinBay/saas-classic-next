@@ -22,8 +22,8 @@ export default function IndexPage() {
         <UltimateFeatures />
         <Features />
         <IntroVideo />
-        <WorkFlow />
         <UsefulFeatures />
+        <WorkFlow />
         <Widgets />
         {/*<Pricing />*/}
         <Faq />
