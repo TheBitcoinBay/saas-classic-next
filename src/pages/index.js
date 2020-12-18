@@ -7,6 +7,7 @@ import Banner from 'sections/banner';
 import UltimateFeatures from 'sections/ultimate-features';
 import Features from 'sections/features';
 import IntroVideo from 'sections/intro-video';
+import Testimonial from 'sections/testimonial';
 import WorkFlow from 'sections/workflow';
 import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
@@ -22,6 +23,7 @@ export default function IndexPage() {
         <UltimateFeatures />
         <Features />
         <IntroVideo />
+        {/*<Testimonial />*/}
         <UsefulFeatures />
         <WorkFlow />
         <Widgets />

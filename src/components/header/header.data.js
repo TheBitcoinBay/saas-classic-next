@@ -5,11 +5,11 @@ export default [
   },
   {
     path: 'ultimate-feature',
-    label: 'Services',
+    label: 'What We Do',
   },
   {
     path: 'useful-features',
-    label: 'Features',
+    label: 'Consulting',
   },
   {
     path: 'faq',

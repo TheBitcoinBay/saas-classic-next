@@ -5,6 +5,7 @@ import UltimateFeature from 'components/cards/ultimate-feature';
 
 import bulb from 'assets/images/icons/bulb-2.png';
 import diamond from 'assets/images/icons/diamond.png';
+import coding from 'assets/images/icons/coding.png';
 import help from 'assets/images/icons/help.png';
 import award from 'assets/images/icons/award.png';
 
@@ -12,25 +13,25 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
+    title: 'Solutions Architecture',
     description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
   },
   {
     id: 2,
-    icon: diamond,
-    title: 'Pro Subscription',
+    icon: help,
+    title: 'Adoption Strategy',
     description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
   },
   {
     id: 3,
-    icon: help,
-    title: 'Partnership deal',
+    icon: coding,
+    title: 'Blockchain Development',
     description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
   },
   {
     id: 4,
     icon: award,
-    title: 'Customer Support',
+    title: 'Investor Relations',
     description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
   },
 ];
@@ -41,7 +42,7 @@ const UsefulFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Amazing useful features"
+          title="Consulting Services"
           description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
         />
         <Box sx={styles.features}>
