@@ -15,7 +15,7 @@ const Banner = () => {
               Helping Businesses in the Blockchain Ecosystem
             </Heading>
             <Text as="p" sx={styles.text}>
-              Created in 2014, Bitcoin Bay is one of the oldest blockchain communities in Toronto. We guide people through the cryptocurrency markets, and provide B2B blockchain expertise for organizations seeking to utilize the technology.
+              Created in 2014, Bitcoin Bay is one of the oldest blockchain organizations in Toronto. We guide people through the cryptocurrency markets, and provide B2B blockchain expertise for organizations seeking to utilize the technology.
             </Text>
             {/*<Button variant="primary" sx={styles.button}>
               Explore Now

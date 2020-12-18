@@ -10,7 +10,7 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Qualify Project Viability',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -39,7 +39,7 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
+          slogan="Consulting Workflow"
           title="Let’s see how it works"
           isWhite={true}
         />

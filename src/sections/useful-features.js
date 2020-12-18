@@ -43,7 +43,7 @@ const UsefulFeatures = () => {
         <SectionHeading
           sx={styles.heading}
           title="Consulting Services"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          description="Providing hands-on engagement, we custom tailored strategies and implementations, helping businesses maximize the value of blockchain."
         />
         <Box sx={styles.features}>
           {data?.map((item) => (
