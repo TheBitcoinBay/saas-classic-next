@@ -18,7 +18,7 @@ const Widgets = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Ultimate widgets of collection that will be used anywhere"
+              title="OPTN Wallet - A Bitcoin Bay Maintained Project"
               description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
             />
             <Text sx={styles.listItem} as="p">

@@ -16,7 +16,7 @@ const data = [
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Assemble Execution Plan',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
