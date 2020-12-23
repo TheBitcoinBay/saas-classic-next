@@ -9,7 +9,11 @@ export default [
   },
   {
     path: 'useful-features',
-    label: 'Consulting',
+    label: 'Services',
+  },
+  {
+    path: 'team-section',
+    label: 'Team',
   },
   {
     path: 'faq',

@@ -12,14 +12,14 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Community Meetups',
+    title: 'Community Engagement',
     description: 'Building a grassroots blockchain ecosystem.',
   },
   {
     id: 2,
     icon: dart,
     title: 'Adoption Strategy',
-    description: 'Aid blockchain adoption for investors and businesses.',
+    description: 'Aid blockchain adoption for businesses.',
   },
   {
     id: 3,

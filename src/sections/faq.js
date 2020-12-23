@@ -52,7 +52,7 @@ export default function Faq() {
       <Container>
         <SectionHeader
           title="Do you have any quesiton"
-          description="Our support team ready to help you, please contact with them"
+          description="Please reach out to us at info@bitcoinbay.ca"
         />
         <Box
           sx={{

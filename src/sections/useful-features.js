@@ -42,7 +42,7 @@ const UsefulFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Consulting Services"
+          title="Our Expertise Services"
           description="Providing hands-on engagement, we custom tailored strategies and implementations, helping businesses maximize the value of blockchain."
         />
         <Box sx={styles.features}>

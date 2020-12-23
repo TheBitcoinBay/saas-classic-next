@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     color: '#28D1DC',
-    value: '80K+',
-    title: 'We have more than customers',
+    value: '200+',
+    title: 'Community Engagement Events',
   },
   {
     id: 2,
     color: '#FF753A',
-    value: '150+',
-    title: 'Free online tutorials videos available',
+    value: '4000+',
+    title: 'Meetup Members *Need something better*',
   },
   {
     id: 3,
     color: '#FA578E',
-    value: '90+',
-    title: 'Daily updated blog post maintain',
+    value: '10+',
+    title: 'Educational & Institutional Partners',
   },
   {
     id: 4,
     color: '#28DCB2',
-    value: '& 3M',
-    title: 'Job posted everyday`s with  qualification',
+    value: '4',
+    title: 'Blockchain Hackathons',
   },
 ];
 
@@ -50,19 +50,23 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
+                  Bitcoin Bay <br />
+                  Our engagements with the community
                 </Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="We have grown a robust grassroots group of experts, entrepreneurs, developers, investors and beginners in broader blockchain ecosystem."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Regularly hosted community meetup engagements
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              Highlight business and technological innovation
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Feature emerging initiatives and developments
             </Text>
             {/*<Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />

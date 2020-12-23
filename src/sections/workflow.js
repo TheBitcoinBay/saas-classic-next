@@ -16,19 +16,19 @@ const data = [
   },
   {
     id: 2,
-    title: 'Assemble Execution Plan',
+    title: 'Assemble Strategic Plan',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Execute Project Development',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Assess Feedback',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },

@@ -19,15 +19,23 @@ const Widgets = () => {
             <SectionHeading
               sx={styles.heading}
               title="OPTN Wallet - A Bitcoin Bay Maintained Project"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="Forked from the Badger Mobile wallet, OPTN aims to provide a comprehensive set of tools for your transactional needs."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Fungible & NFT Token Integration
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              Customizable Contract Accounts
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Signage & Authentication
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Open Source
             </Text>
             {/*<Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />

@@ -17,6 +17,9 @@ const Banner = () => {
             <Text as="p" sx={styles.text}>
               Created in 2014, Bitcoin Bay is one of the oldest blockchain organizations in Toronto. We guide people through the cryptocurrency markets, and provide B2B blockchain expertise for organizations seeking to utilize the technology.
             </Text>
+            <Text as="p" sx={styles.text}>
+              Reach out to us at info@bitcoinbay.ca
+            </Text>
             {/*<Button variant="primary" sx={styles.button}>
               Explore Now
             </Button>*/}
