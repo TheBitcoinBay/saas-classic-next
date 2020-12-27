@@ -10,25 +10,25 @@ import {
   FaLinkedinIn,
 } from 'react-icons/fa';
 
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
+import Member1 from 'assets/team/Leo.png';
+import Member2 from 'assets/team/Ed.png';
+import Member3 from 'assets/team/Jerry.png';
+import Member4 from 'assets/team/Antoine.png';
+import Member5 from 'assets/team/Gaurav.png';
+import Member6 from 'assets/team/You.png';
 
 const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Leonard Fiadzinu',
+    title: 'Leonard Fiadzinu',
+    designation: 'CEO',
     socialProfile: [
       {
         id: 1,
         name: 'linkedin',
-        path: 'https://www.linkedin.com/nhome/',
+        path: 'https://www.linkedin.com/in/leonard-fiadzinu-cfa-cmt-caia-a43a1a1/',
         icon: <FaLinkedinIn />,
       },
 /*
@@ -56,10 +56,17 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    altText: 'Edward Buchi',
+    title: 'Edward Buchi',
+    designation: 'COO',
     socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/edward-buchi-1a103a33/',
+        icon: <FaLinkedinIn />,
+      },
+      /*
       {
         id: 1,
         name: 'facebook',
@@ -78,15 +85,23 @@ const data = [
         path: '#',
         icon: <FaInstagram />,
       },
+      */
     ],
   },
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Jerry Qian',
+    title: 'Jerry Qian',
+    designation: 'CTO',
     socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/jerry-qian-4ba2a79a/',
+        icon: <FaLinkedinIn />,
+      },
+      /*
       {
         id: 1,
         name: 'facebook',
@@ -105,15 +120,23 @@ const data = [
         path: '#',
         icon: <FaInstagram />,
       },
+      */
     ],
   },
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    altText: 'Antoine De Vuyst',
+    title: 'Antoine De Vuyst',
+    designation: 'Title',
     socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/antoine-de-vuyst-49a74194/',
+        icon: <FaLinkedinIn />,
+      },
+      /*
       {
         id: 1,
         name: 'facebook',
@@ -132,15 +155,23 @@ const data = [
         path: '#',
         icon: <FaInstagram />,
       },
+      */
     ],
   },
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Gaurav Sharma',
+    title: 'Gaurav Sharma',
+    designation: 'Title',
     socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/gauravksharma9/',
+        icon: <FaLinkedinIn />,
+      },
+      /*
       {
         id: 1,
         name: 'facebook',
@@ -159,15 +190,17 @@ const data = [
         path: '#',
         icon: <FaInstagram />,
       },
+      */
     ],
   },
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'You',
+    title: 'You',
+    designation: '',
     socialProfile: [
+      /*
       {
         id: 1,
         name: 'facebook',
@@ -186,6 +219,7 @@ const data = [
         path: '#',
         icon: <FaInstagram />,
       },
+      */
     ],
   },
 ];

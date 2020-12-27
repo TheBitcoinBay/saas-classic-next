@@ -12,27 +12,27 @@ import award from 'assets/images/icons/award.png';
 const data = [
   {
     id: 1,
-    icon: bulb,
-    title: 'Solutions Architecture',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    icon: help,
+    title: 'Adoption Strategy',
+    description: `Whether it's merchant adoption or decentralized finance, we value in educating from the blockchain fundamentals. Our Bitcoin Bay meetups and workshops are beginner-friendly with a wide range of technical and business related content.`,
   },
   {
     id: 2,
-    icon: help,
-    title: 'Adoption Strategy',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    icon: bulb,
+    title: 'Ideation Assessment',
+    description: `Let Bitcoin Bay help your blockchain project with comprehensive analysis and evaluative feedback. With our blockchain expertise, we provide an effective diagnosis and recommended actions for successful execution.`,
   },
   {
     id: 3,
     icon: coding,
     title: 'Blockchain Development',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    description: `Bitcoin Bay constantly updates our hands-on knowledge of blockchain development practices. Let our experts help catalyze your blockchain project, providing comprehensive insight into the pros and cons of various approaches.`,
   },
   {
     id: 4,
     icon: award,
     title: 'Investor Relations',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    description: `Bitcoin Bay has built a reputation for vetting blockchain projects. Since 2017, our team has evaluated dozens of projects. We help filter out teams that raise red flags, and highlight projects that have strong prospective viability.`,
   },
 ];
 

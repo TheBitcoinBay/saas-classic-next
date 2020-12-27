@@ -1,92 +1,126 @@
 /** @jsx jsx */
-import { jsx, Box, Text, Container } from 'theme-ui';
-import Logo from 'components/logo';
+import { jsx, Box, Grid, Container, Image, Heading, Text } from 'theme-ui';
 import { Link } from 'components/link';
-import FooterWidget from 'components/footer-widget';
-import { menuItems, footerNav } from './footer.data';
-import { rgba } from 'polished';
-
+import data from './footer.data';
+import FooterLogo from 'assets/logo.svg';
 export default function Footer() {
   return (
-    <Box as="footer" variant="layout.footer">
-      {/*<Container>
-        <Box sx={styles.footerTopInner}>
-          {menuItems.map(({ id, title, items }) => (
-            <FooterWidget key={id} title={title} items={items} />
-          ))}
-        </Box>
-      </Container>*/}
+    <footer sx={styles.footer}>
       <Container>
-        <Box sx={styles.footerInner}>
-          <Box sx={styles.copyright}>
-            <Logo />
-            <Text as="span">
-              {new Date().getFullYear()} Bitcoin Bay Corp.
-            </Text>
+        {/*<Grid sx={styles.widgets}>
+          {data.widgets.map((item) => (
+            <Box
+              key={`footer-widget--key${item.id}`}
+              sx={styles.widgets.widgetItem}
+            >
+              <Image src={item.iconSrc} alt={item.altText} />
+              <Box sx={styles.widgets.infoWrapper}>
+                <Heading as="h3">{item.title}</Heading>
+                <Text as="p">{item.description}</Text>
+              </Box>
+            </Box>
+          ))}
+        </Grid>*/}
+        {/* End of footer widgets area */}
+        <Box sx={styles.footer.footerBottomArea}>
+          <Link path="/">
+            <Image src={FooterLogo} alt="Logo" />
+          </Link>
+          <Box sx={styles.footer.menus}>
+            <nav>
+              {/*data.menuItem.map(({ path, label }, i) => (
+                <Link
+                  path={path}
+                  key={i}
+                  label={label}
+                  sx={styles.footer.link}
+                />
+              ))*/}
+            </nav>
           </Box>
-
-          {/*<Box as="ul" sx={styles.footerNav}>
-            {footerNav.map(({ path, label }, i) => (
-              <li key={i}>
-                <Link path={path} key={i} label={label} variant="footer" />
-              </li>
-            ))}
-          </Box>*/}
+          <Text sx={styles.footer.copyright}>
+            info@bitcoinbay.ca <br/>
+            {new Date().getFullYear()} Bitcoin Bay Corp.
+          </Text>
         </Box>
       </Container>
-    </Box>
+    </footer>
   );
 }
 
 const styles = {
-  footerTopInner: {
-    gap: [50, null, null, null, 17, 50],
-    mb: [50],
-    display: ['grid'],
-    gridTemplateColumns: [
-      'repeat(2, 1fr)',
-      null,
-      null,
-      'repeat(3, 1fr)',
-      'repeat(5, 1fr)',
-    ],
-  },
-  footerInner: {
-    borderTop: `1px solid #D9E0E7`,
-    display: ['block', null, 'flex'],
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '35px 0 40px',
-    '@media only screen and (max-width: 400px)': {
-      pb: 10,
+  footer: {
+    footerBottomArea: {
+      borderTop: '1px solid',
+      borderTopColor: 'border_color',
+      display: 'flex',
+      pt: [7, null, 8],
+      pb: ['40px', null, '100px'],
+      textAlign: 'center',
+      flexDirection: 'column',
     },
-  },
-  copyright: {
-    display: ['flex'],
-    alignItems: 'center',
-    flexDirection: ['column', null, null, null, 'row'],
-    span: {
-      fontSize: '14px',
-      lineHeight: 1.29,
-      color: rgba('#0F2137', 0.6),
-      mt: ['18px', '18px', '7px'],
-    },
-  },
-  footerNav: {
-    listStyle: 'none',
-    margin: ['15px 0 0', '15px 0 0', '0'],
-    padding: 0,
-    display: ['flex'],
-    flexWrap: ['wrap', null, null, 'unset'],
-    justifyContent: ['center', null, 'flex-start'],
-    'li + li': {
-      ml: ['18px', '18px', '20px'],
-      '@media only screen and (max-width: 400px)': {
-        mb: '10px',
+    menus: {
+      mt: [3, 4],
+      mb: 2,
+      nav: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexWrap: 'wrap',
       },
     },
-    a: {
-      color: 'textSecondary',
+
+    link: {
+      fontSize: [1, '15px'],
+      color: 'text',
+      fontWeight: '400',
+      mb: 2,
+      cursor: 'pointer',
+      transition: 'all 0.35s',
+      display: 'block',
+      textDecoration: 'none',
+      lineHeight: [1.5, null, 1.8],
+      px: [2, null, 4],
+      ':hover': {
+        color: 'primary',
+      },
+    },
+    copyright: {
+      fontSize: [1, '15px'],
+      width: '100%',
+    },
+  },
+  widgets: {
+    py: [8, null, 9],
+    px: [4, 0, 3, null, 7, 10],
+    width: ['100%', '80%', '100%'],
+    mx: 'auto',
+    gridGap: ['40px 0', null, '45px 30px', null, '60px 30px', '50px 90px'],
+    gridTemplateColumns: [
+      'repeat(1,1fr)',
+      null,
+      'repeat(2,1fr)',
+      'repeat(3,1fr)',
+    ],
+    widgetItem: {
+      textAlign: 'center',
+    },
+    infoWrapper: {
+      mt: [2, 3, null, 2, 4],
+      mb: -1,
+      h3: {
+        fontSize: [3, null, null, 2, 3, 4],
+        color: 'heading_secondary',
+        lineHeight: 1.4,
+        fontWeight: 700,
+        mb: [2, null, null, null, '15px'],
+      },
+
+      p: {
+        fontSize: [1, '15px'],
+        fontWeight: 400,
+        lineHeight: 2,
+      },
     },
   },
 };

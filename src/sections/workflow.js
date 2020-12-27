@@ -12,25 +12,25 @@ const data = [
     id: 1,
     title: 'Qualify Project Viability',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Understand project goals with technical and business implementation assessment.',
   },
   {
     id: 2,
-    title: 'Assemble Strategic Plan',
+    title: 'Recommend Strategic Plan',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Provide a structure proposal with primary and peripheral context to the core problem.',
   },
   {
     id: 3,
-    title: 'Execute Project Development',
+    title: 'Assist Project Implementation',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Support the executive and operations team on the chosen recommendation plan.',
   },
   {
     id: 4,
-    title: 'Assess Feedback',
+    title: 'Feedback Assessment',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Progression and results data are collected and processed to give clear status updates.',
   },
 ];
 
