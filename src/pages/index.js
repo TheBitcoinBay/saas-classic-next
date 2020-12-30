@@ -30,7 +30,7 @@ export default function IndexPage() {
         <Widgets />
         <TeamSection />
         {/*<Pricing />*/}
-        <Faq />
+        {/*<Faq />*/}
       </Layout>
     </ThemeProvider>
   );

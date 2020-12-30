@@ -13,25 +13,25 @@ const data = [
     id: 1,
     color: '#28D1DC',
     value: '200+',
-    title: 'Community Engagement Events',
+    title: 'Blockchain Engagement Events',
   },
   {
     id: 2,
     color: '#FF753A',
     value: '4000+',
-    title: 'Meetup Members *Need something better*',
+    title: 'Meetup Community Members',
   },
   {
     id: 3,
     color: '#FA578E',
-    value: '10+',
+    value: '20+',
     title: 'Educational & Institutional Partners',
   },
   {
     id: 4,
     color: '#28DCB2',
-    value: '4',
-    title: 'Blockchain Hackathons',
+    value: '10+',
+    title: 'Supported Blockchain Protocols',
   },
 ];
 

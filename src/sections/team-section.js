@@ -15,7 +15,7 @@ import Member2 from 'assets/team/Ed.png';
 import Member3 from 'assets/team/Jerry.png';
 import Member4 from 'assets/team/Antoine.png';
 import Member5 from 'assets/team/Gaurav.png';
-import Member6 from 'assets/team/You.png';
+import Member6 from 'assets/team/Allwyn.png';
 
 const data = [
   {
@@ -128,7 +128,7 @@ const data = [
     imgSrc: Member4,
     altText: 'Antoine De Vuyst',
     title: 'Antoine De Vuyst',
-    designation: 'Title',
+    designation: 'Blockchain Developer',
     socialProfile: [
       {
         id: 1,
@@ -163,7 +163,7 @@ const data = [
     imgSrc: Member5,
     altText: 'Gaurav Sharma',
     title: 'Gaurav Sharma',
-    designation: 'Title',
+    designation: 'Business Developer',
     socialProfile: [
       {
         id: 1,
@@ -196,10 +196,16 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'You',
-    title: 'You',
-    designation: '',
+    altText: "Allwyn D'Souza",
+    title: "Allwyn D'Souza",
+    designation: 'Head of Research',
     socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/allwynjdsouza/',
+        icon: <FaLinkedinIn />,
+      },
       /*
       {
         id: 1,
@@ -230,7 +236,7 @@ export default function TeamSection() {
       <Container>
         <SectionHeader
           // slogan="our team"
-          title="The most qualified and talented individuals"
+          title="The Bitcoin Bay Team"
         />
 
         <Grid sx={styles.grid}>
