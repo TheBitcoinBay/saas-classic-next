@@ -1,4 +1,4 @@
-/** @jsx jsx */
+ 
 import { jsx, Container, Box } from 'theme-ui';
 import SectionHeader from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';

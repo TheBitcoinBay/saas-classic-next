@@ -1,37 +1,36 @@
-/** @jsx jsx */
-import { jsx, Box, Container } from 'theme-ui';
-import SectionHeading from 'components/section-heading';
-import UltimateFeature from 'components/cards/ultimate-feature';
+import { jsx, Box, Container } from "theme-ui";
+import SectionHeading from "components/section-heading";
+import UltimateFeature from "components/cards/ultimate-feature";
 
-import bulb from 'assets/images/icons/bulb-2.png';
-import diamond from 'assets/images/icons/diamond.png';
-import coding from 'assets/images/icons/coding.png';
-import help from 'assets/images/icons/help.png';
-import award from 'assets/images/icons/award.png';
+import bulb from "assets/images/icons/bulb-2.png";
+import diamond from "assets/images/icons/diamond.png";
+import coding from "assets/images/icons/coding.png";
+import help from "assets/images/icons/help.png";
+import award from "assets/images/icons/award.png";
 
 const data = [
   {
     id: 1,
     icon: help,
-    title: 'Adoption Strategy',
+    title: "Adoption Strategy",
     description: `Whether it's merchant adoption or decentralized finance, we value in educating from the blockchain fundamentals. Our Bitcoin Bay meetups and workshops are beginner-friendly with a wide range of technical and business related content.`,
   },
   {
     id: 2,
     icon: bulb,
-    title: 'Ideation Assessment',
+    title: "Ideation Assessment",
     description: `Let Bitcoin Bay help your blockchain project with comprehensive analysis and evaluative feedback. With our blockchain expertise, we provide an effective diagnosis and recommended actions for successful execution.`,
   },
   {
     id: 3,
     icon: coding,
-    title: 'Blockchain Development',
+    title: "Blockchain Development",
     description: `Bitcoin Bay constantly updates our hands-on knowledge of blockchain development practices. Let our experts help catalyze your blockchain project, providing comprehensive insight into the pros and cons of various approaches.`,
   },
   {
     id: 4,
     icon: award,
-    title: 'Investor Relations',
+    title: "Investor Relations",
     description: `Bitcoin Bay has built a reputation for vetting blockchain projects. Since 2017, our team has evaluated dozens of projects. We help filter out teams that raise red flags, and highlight projects that have strong prospective viability.`,
   },
 ];
@@ -67,20 +66,20 @@ const styles = {
   },
   features: {
     gap: 60,
-    display: ['grid'],
-    gridTemplateColumns: ['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)'],
-    '.feature-item': {
-      display: ['block', 'block', 'block', 'block', 'flex'],
-      px: ['15px', 0],
-      maxWidth: ['none'],
+    display: ["grid"],
+    gridTemplateColumns: ["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"],
+    ".feature-item": {
+      display: ["block", "block", "block", "block", "flex"],
+      px: ["15px", 0],
+      maxWidth: ["none"],
       figure: {
-        minWidth: '90px',
+        minWidth: "90px",
         m: [
-          '0 auto 30px',
-          '0 auto 30px',
-          '0 auto 30px',
-          '0 auto 30px',
-          '0 26px 0 0',
+          "0 auto 30px",
+          "0 auto 30px",
+          "0 auto 30px",
+          "0 auto 30px",
+          "0 26px 0 0",
         ],
       },
     },

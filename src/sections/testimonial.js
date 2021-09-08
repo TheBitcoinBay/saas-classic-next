@@ -1,4 +1,4 @@
-/** @jsx jsx */
+ 
 import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Rating from 'components/rating';
@@ -83,7 +83,7 @@ export default function TestimonialCard() {
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
       <Box sx={styles.carouselWrapper}>
-        <Carousel
+        <Carousel 
           additionalTransfrom={0}
           arrows={false}
           autoPlaySpeed={3000}
@@ -114,7 +114,7 @@ export default function TestimonialCard() {
               <Text sx={styles.description}>{item.description}</Text>
               <div className="card-footer">
                 <div className="image">
-                  <Image src={item.avatar} alt="Client Image" />
+                  <Image src={item.avatar} alt="Client Image" width="55" height="55"/>
                 </div>
                 <div className="reviewer-info">
                   <Heading as="h4" sx={styles.heading}>
